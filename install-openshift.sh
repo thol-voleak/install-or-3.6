@@ -1,10 +1,10 @@
 #!/bin/bash
-export DOMAIN=ocp-master-pro.tmn.local
+export DOMAIN=master-ocp.truemoney.com.kh
 export USERNAME=admin
-export PASSWORD=admin@pwdprod
+export PASSWORD=admin@pwd
 export VERSION=${VERSION:="v3.6.1"}
 
-export SCRIPT_REPO=${SCRIPT_REPO:="https://raw.githubusercontent.com/thol-voleak/install-or-centos-3.9/master/"}
+export SCRIPT_REPO=${SCRIPT_REPO:="https://raw.githubusercontent.com/thol-voleak/install-or-3.6/master/"}
 
 export IP="$(ip route get 8.8.8.8 | awk '{print $NF; exit}')"
 
